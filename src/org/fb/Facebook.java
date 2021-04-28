@@ -16,7 +16,7 @@ public class Facebook {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		WebElement txtEmail = driver.findElement(By.id("email"));
-		txtEmail.sendKeys("prav@123");
+		txtEmail.sendKeys("prav@1234567890");
 
 		Robot rb =new Robot();
 		rb.keyPress(KeyEvent.VK_CONTROL);rb.keyPress(KeyEvent.VK_A);
