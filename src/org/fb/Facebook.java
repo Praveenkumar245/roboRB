@@ -3,13 +3,19 @@ package org.fb;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Facebook {
+	
+	private void empId() {
+System.out.println("shj1345222");
+}
+	private void empName() {
+System.out.println("Praveen");
+	}
 	public static void main(String[] args) throws AWTException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ELCOT\\eclipse-workspace\\RobotClass\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -30,7 +36,6 @@ public class Facebook {
 
 
 
-
 	}
-
 }
+
